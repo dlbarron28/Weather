@@ -1,0 +1,158 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/current_weather_icon"
+        android:cropToPadding="false"
+        />
+    <TableRow >
+        <TextView
+            android:layout_column="1"
+            android:text="@string/city_name_text"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:id="@+id/city_name"
+            />
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_column="1"
+            android:text="@string/sun_rise_text"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:id="@+id/sun_rise"
+            />
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_column="1"
+            android:text="@string/sun_set_text"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:id="@+id/sun_set"
+            />
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_column="1"
+            android:text="@string/current_temp_text"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:id="@+id/current_temp"
+            />
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_column="1"
+            android:text="@string/min_text"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:id="@+id/temp_min"
+            />
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_column="1"
+            android:text="@string/max_text"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:id="@+id/temp_max"
+            />
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_column="1"
+            android:text="@string/humidity_text"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:id="@+id/humidity_value"
+            />
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_column="1"
+            android:text="@string/pressure_text"
+            android:paddingRight="10dp"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:id="@+id/pressure_value"
+            />
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_column="1"
+            android:text="@string/wind_text"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:id="@+id/wind_name"
+            />
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_column="1"
+            android:text="@string/cloud_text"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:id="@+id/clouds_name"
+            />
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_column="1"
+            android:text="@string/condition_text"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:id="@+id/weather_value"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:id="@+id/weather_icon"
+            />
+    </TableRow>
+    <TableRow >
+        <TextView
+            android:layout_column="1"
+            android:text="@string/update_text"
+            />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:id="@+id/update"
+            />
+    </TableRow>
+
+</TableLayout>
+</FrameLayout>

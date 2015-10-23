@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="action_exit">Exit</string>
+    <string name="no_locations">Add a Location</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_add">Add</string>
+    <string name="city_name_text">City Name:</string>
+    <string name="sun_rise_text">Sun Rise:</string>
+    <string name="sun_set_text">Sun Set:</string>
+    <string name="current_temp_text">Current Temp:</string>
+    <string name="min_text">Min:</string>
+    <string name="max_text">Max:</string>
+    <string name="humidity_text">Humidity:</string>
+    <string name="pressure_text">Atmospheric Pressure:</string>
+    <string name="wind_text">Wind:</string>
+    <string name="cloud_text">Clouds:</string>
+    <string name="condition_text">Weather:</string>
+    <string name="update_text">Last Updated:</string>
+    <string name="dialog_title">Add Location</string>
+    <string name="city_string">City:</string>
+    <string name="state_string">State:</string>
+    <string name="home_checkbox_text">Home Location?</string>
+    <string name="city_hint_text">Name of City</string>
+    <string name="state_hint_tet">State Abbreviation</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alarm_run_switch">alarm_run_switch</string>
+    <string name="alarm_running">Alarm Running</string>
+    <string name="alarm_off">Alarm Off</string>
+</resources>
